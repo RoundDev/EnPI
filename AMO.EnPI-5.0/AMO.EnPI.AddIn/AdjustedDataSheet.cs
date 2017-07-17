@@ -161,7 +161,7 @@ namespace AMO.EnPI.AddIn
             errs.Append(txtBox.TextFrame.Characters().Text);
             errs.AppendLine();
 
-            AMO.EnPI.AddIn.Utilities.Model mdl;
+            //AMO.EnPI.AddIn.Utilities.Model mdl;
 
             foreach (string st in Warnings)
             {

@@ -2029,6 +2029,8 @@ namespace AMO.EnPI.AddIn
             else
                 return false;
         }
+
+
     }
 
     public class DetailTableCollection : System.Collections.CollectionBase

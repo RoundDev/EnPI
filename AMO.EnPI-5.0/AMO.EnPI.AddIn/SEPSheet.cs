@@ -167,7 +167,7 @@ namespace AMO.EnPI.AddIn
             ((Excel.Range)sumRange[1, 1]).Font.Bold = true;
             ((Excel.Range)sumRange[1, 1]).Interior.Color = 0x008000;
 
-            AMO.EnPI.AddIn.Utilities.Model mdl;
+            //AMO.EnPI.AddIn.Utilities.Model mdl;
 
 
 

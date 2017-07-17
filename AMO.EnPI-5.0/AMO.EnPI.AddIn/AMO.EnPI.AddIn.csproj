@@ -237,12 +237,6 @@
     can be found.
   -->
   <ItemGroup>
-    <Compile Include="..\AMO.EnPI.Utilities\EnPIResources.Designer.cs">
-      <Link>EnPIResources.Designer.cs</Link>
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>EnPIResources.resx</DependentUpon>
-    </Compile>
     <Compile Include="ActualSheet.cs" />
     <Compile Include="AdjustedDataSheet.cs" />
     <Compile Include="ChangeModelControl.cs">
@@ -318,12 +312,6 @@
     <Compile Include="WizardControl.designer.cs">
       <DependentUpon>WizardControl.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="..\AMO.EnPI.Utilities\EnPIResources.resx">
-      <Link>EnPIResources.resx</Link>
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>EnPIResources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <EmbeddedResource Include="ChangeModelControl.resx">
       <DependentUpon>ChangeModelControl.cs</DependentUpon>
     </EmbeddedResource>

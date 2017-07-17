@@ -3,7 +3,7 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
-"ProjectName" = "8:AMO.NewSetup"
+"ProjectName" = "8:EnPI"
 "LanguageId" = "3:1033"
 "CodePage" = "3:1252"
 "UILanguageId" = "3:1033"
@@ -31,6 +31,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -47,6 +63,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -123,22 +147,22 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:AMO.NewSetup"
-        "ProductCode" = "8:{FAC02265-28EB-45E9-AAF7-8D7C2BE5B190}"
-        "PackageCode" = "8:{B2CBD8C5-4E19-4162-BE4F-4ACD39E2B9DC}"
+        "ProductName" = "8:EnPI"
+        "ProductCode" = "8:{0B4357CA-0FE5-4D41-BC21-B8ED4FBBCF2D}"
+        "PackageCode" = "8:{BF308C3B-FC9B-434C-A23F-7A3014327BD8}"
         "UpgradeCode" = "8:{3B1FCEE4-9A7B-44CE-817C-1D7E4B4AA2D8}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
-        "RemovePreviousVersions" = "11:FALSE"
+        "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:Microsoft"
+        "ProductVersion" = "8:5.1"
+        "Manufacturer" = "8:Department of Energy Advanced Manufacturing Office - Oak Ridge National Laboratory"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:AMO.NewSetup"
+        "Title" = "8:EnPI"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:Microsoft"
+        "ARPCONTACT" = "8:Oak Ridge National Laboratory"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
@@ -644,7 +668,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_601A011960E545AC9328655FF4A76E26"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_70C3EA88A3C044909FE643FEDE8D53DA"
             {
             "SourcePath" = "8:"
             "TargetName" = "8:"
@@ -666,13 +690,13 @@
             "ProjectOutputGroupRegister" = "3:1"
             "OutputConfiguration" = "8:"
             "OutputGroupCanonicalName" = "8:RuntimeImplementation"
-            "OutputProjectGuid" = "8:{4EAD224F-2DF5-4A87-8716-3978981AF386}"
+            "OutputProjectGuid" = "8:{64A4E038-A7CA-48DA-9B23-B87284BC061A}"
             "ShowKeyOutput" = "11:TRUE"
                 "ExcludeFilters"
                 {
                 }
             }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_E646EA5371B14F5F9AE3E2BBB7335CDE"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_9BCE1D42CBA8463F801286CD3486D6E0"
             {
             "SourcePath" = "8:"
             "TargetName" = "8:"
@@ -700,7 +724,7 @@
                 {
                 }
             }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_FD8436FA9AEB4EDF9B9CBDDB9DCA24E4"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_F5850D5B29544FE28B1AC0366E88CF0F"
             {
             "SourcePath" = "8:"
             "TargetName" = "8:"
